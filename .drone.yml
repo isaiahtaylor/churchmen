@@ -1,0 +1,11 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+  - name: app
+    image: cirrusci/flutter
+    commands:
+      - cd mobile/app
+      - flutter pub get
+      - flutter test
