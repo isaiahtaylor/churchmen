@@ -4,7 +4,7 @@ name: default
 
 steps:
   - name: app
-    image: cirrusci/flutter
+    image: nathansamson/flutter-builder-docker
     commands:
       - cd mobile/app
       - flutter pub get
