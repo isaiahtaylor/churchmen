@@ -1,0 +1,9 @@
+{
+	"auth": {},
+	"api": {
+		"schema": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+		}
+	}
+}
